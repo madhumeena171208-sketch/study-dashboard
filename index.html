@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Study Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI Study Dashboard</h1>
+    <p>Practice quizzes to improve your learning</p>
+  </header>
+
+  <main class="dashboard">
+    <section>
+      <h2>Select Subject</h2>
+      <select id="subject-select">
+        <option value="javascript">JavaScript Basics</option>
+        <option value="dsa">DSA Basics</option>
+      </select>
+    </section>
+
+    <section>
+      <h2>Your Best Scores</h2>
+      <p>JavaScript: <span id="best-js">0</span></p>
+      <p>DSA: <span id="best-dsa">0</span></p>
+    </section>
+
+    <button id="start-quiz-btn">Start Quiz</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
